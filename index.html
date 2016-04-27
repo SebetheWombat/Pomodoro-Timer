@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<title>Pomodoro</title>
+	<link href="style.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  </head>
+  <body>
+	<link href='https://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+	<div>
+	  <h1>Pomodoro Timer</h1>
+	</div>
+	<div id = "container">
+	  <div id="setBreak">
+		<h2>Set Break</h2>
+		<div class="adjust">
+		  <h3 id = "breakUp">></h3>
+		  <h3 id="breakDown">&#60;</h3>
+		  <h3 id="break">5</h3>
+		</div>
+	  </div>
+	  <div id="setTime">
+		<h2>Set Time</h2>
+		<div class="adjust">
+		  <h3 id="timeUp">></h3>
+		  <h3 id="timeDown">&#60;</h3>
+		  <h3 id="time">25</h3>
+		</div>
+	  </div>
+	</div>
+	<div id="timer">
+	  <img id="tom" src="https://pixabay.com/static/uploads/photo/2012/04/13/21/01/tomato-33624_960_720.png" alt="tomato"/>
+	  <div id = "clock">
+		<h3 id="showBreak">Go Time!</h3>
+		<h3 id = "clockTime">25</h3>
+	  </div>
+	</div>
+	<script src="PomoFunction.js"></script>
+  </body>
+</html>
